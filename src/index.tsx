@@ -4,6 +4,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// const { connectors } = getDefaultWallets({
+//   appName: 'SSX Rainbow Kit Example',
+//   chains,
+// });
+
+// const wagmiClient = createClient({
+//   autoConnect: true,
+//   connectors,
+//   provider,
+// });
+
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
